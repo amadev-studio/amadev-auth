@@ -1,5 +1,6 @@
 export class loginError extends Error {
-  constructor(errorCode: Number, errorLabel: String) {
-    return 'Hello World'
+  constructor(errorCode: number, errorLabel: string) {
+    super();
+    return new Error(errorLabel);
   }
 } 

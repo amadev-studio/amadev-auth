@@ -1,6 +1,6 @@
 //const fetch = require 
-import fetch from 'node-fetch';
-import loginError from './loginError'
+import * as fetch from 'node-fetch';
+import { loginError } from './loginError'
 // on fait un module ??
 
 export class Auth {
