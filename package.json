@@ -1,0 +1,22 @@
+{
+  "name": "amadev-auth",
+  "description": "This repository allows you to log into an application using an Amadev account.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node-dev ./src/auth.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "node-fetch": "^2.6.7",
+    "ts-node-dev": "^1.1.8",
+    "tsc": "^2.0.4",
+    "typescript": "^4.5.5"
+  },
+  "keywords": [],
+  "author": "Vixen, Zuygui and Amadev Corporation",
+  "license": "Amadev Studio Software License"
+}
