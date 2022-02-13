@@ -1,9 +1,9 @@
 //const fetch = require 
 import fetch from 'node-fetch';
-import loginError from './scripts/loginError'
+import loginError from './loginError'
 // on fait un module ??
 
-export default class Auth {
+export class Auth {
   id: Number[];
   token: String;
 

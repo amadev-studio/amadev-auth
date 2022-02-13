@@ -3,10 +3,10 @@
   "description": "This repository allows you to log into an application using an Amadev account.",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/server.ts",
+  "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node-dev ./src/auth.ts",
+    "start": "ts-node-dev .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

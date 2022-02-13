@@ -1,2 +1,2 @@
 //export default amadevAuth from './src/auth.ts';
-console.log("hello world")
+console.log("hello world");
